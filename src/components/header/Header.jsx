@@ -11,7 +11,7 @@ const Header = () => {
         </h3>
       </div>
       <div className="section-header__photo">
-        <img src="https://avatars.githubusercontent.com/u/128013006?v=4"></img>
+        <img src="https://avatars.githubusercontent.com/u/128013006?v=4" alt="Ellina`s Photo"></img>
       </div>
     </div>
   );
