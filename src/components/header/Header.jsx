@@ -3,22 +3,57 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div id="home">
-      <div className="section-header__photo">
+    <div className="header__container" id="home">
+      <div className="section-header__photo_container">
         <img
           src="https://avatars.githubusercontent.com/u/128013006?v=4"
           alt="Ellina`s Photo"
+          className="header-section__photo"
         ></img>
       </div>
       <div className="section-header__text">
-        <h1>Front End Developer</h1>
-        <h3>
+        <h1 className="section-header__h1">Front End Developer</h1>
+        <h4 className="section-header__h4">
           Hi! My name is Ellina Babaian<br></br>A passionate Front End Developer
           based in Los Angeles, CA
-        </h3>
-        <div>
-          <h3>Tech Stack</h3>
-          <ul>
+        </h4>
+        <div className="section-header__contact">
+          <div className="popup__contact_header">
+            <a
+              href="https://www.linkedin.com/in/ellina-babaian-302645267/"
+              target="_blank"
+              className="link_tag"
+            >
+              <img
+                className="link_logo__header"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
+              ></img>
+            </a>
+            <a
+              href="https://github.com/ellinababayan"
+              target="_blank"
+              className="link_tag"
+            >
+              <img
+                className="link_logo__header"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              ></img>
+            </a>
+            <a
+              href="mailto:famogl375@gmail.com"
+              target="_blank"
+              className="link_tag"
+            >
+              <img
+                className="link_logo__header"
+                src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png"
+              ></img>
+            </a>
+          </div>
+        </div>
+        <div className="tech_stack__container">
+          <h3 className="section-header__h3">Tech Stack:</h3>
+          <ul className="tech_stack">
             <li>
               <img src="img/html-logo.png" alt="HTML" className="stack_logo" />
             </li>
@@ -85,14 +120,8 @@ const Header = () => {
               />
             </li>
             <li>
-              {" "}
               <img src="img/git-logo.png" alt="Git" className="stack_logo" />
             </li>
-            {/* <li> <img src="" alt="" className="stack_logo" /></li> */}
-            {/* <li></li>
-            <li></li>
-            <li></li>
-            <li></li> */}
           </ul>
         </div>
       </div>
