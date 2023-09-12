@@ -1,8 +1,45 @@
-
+.section-contact {
+  padding-top: 6rem;
+}
+.contact_h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(57, 47, 36, 0.9);
+  font-size: 1.6rem;
+}
+.contact_h3 {
+  font-weight: 700;
+  color: rgba(57, 47, 36, 0.6);
+  font-size: 1rem;
+}
+.popup__contact {
+  padding: 3rem;
+}
 .link_tag {
   padding: 1rem;
   padding-left: 3rem;
 }
 .link_logo {
-  width: 5rem;
+  width: 3rem;
+}
+.btn {
+  background-color: rgba(57, 47, 36, 0.7);
+  border-radius: 1rem;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: rgb(217, 217, 214);
+  color: rgb(57, 47, 36);
+  transition: 0.5s;
+}
+.copyright {
+  margin-top: 2rem;
+  color: rgb(57, 47, 36);
+  font-size: 0.7rem;
 }

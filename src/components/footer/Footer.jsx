@@ -3,10 +3,10 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div id="contact">
-      <h1>Contact</h1>
+    <div id="contact" className="section-contact">
+      <h1 className="contact_h1">Contact</h1>
       <div>
-        <h3 className="heading-tertiary u-margin-bottom-small">
+        <h3 className="contact_h3">
           Hi there! <br></br>Looking forward to hear from you back
         </h3>
         <div className="popup__contact">
@@ -44,10 +44,11 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/ellina-babaian-302645267/"
           target="_blank"
-          className="btn btn--green"
+          className="btn"
         >
           Contact Now
         </a>
+        <p class="copyright"> &#169;Copyright 2023 by Ellina Babaian</p>
       </div>
     </div>
   );
