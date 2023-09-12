@@ -6,7 +6,6 @@ const Footer = () => {
     <div id="contact">
       <h1>Contact</h1>
       <div>
-        <h2 className="heading-secondary u-margin-bottom-small">Contact</h2>
         <h3 className="heading-tertiary u-margin-bottom-small">
           Hi there! <br></br>Looking forward to hear from you back
         </h3>
