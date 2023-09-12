@@ -1,0 +1,30 @@
+.section-about {
+  padding-top: 8rem;
+  height: 80vh;
+}
+.section-about__h2 {
+}
+.section-about__h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(57, 47, 36, 0.9);
+  font-size: 1.6rem;
+}
+.about_features {
+  width: 40%;
+  margin: auto;
+}
+.resume_container {
+  margin-top: 5rem;
+}
+.resume {
+  background-color: rgba(57, 47, 36, 0.2);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: rgb(57, 47, 36);
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
