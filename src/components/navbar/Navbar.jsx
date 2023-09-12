@@ -2,6 +2,14 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div className="navbar_container">
       <img
@@ -10,16 +18,44 @@ const Navbar = () => {
         className="navbar_logo"
       />
       <div className="navbar_navigation">
-        <a href="#home" className="navbar_item">
+        <a
+          href="#home"
+          className="navbar_item"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("home");
+          }}
+        >
           Home
         </a>
-        <a href="#about" className="navbar_item">
+        <a
+          href="#about"
+          className="navbar_item"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("about");
+          }}
+        >
           About
         </a>
-        <a href="#projects" className="navbar_item">
+        <a
+          href="#projects"
+          className="navbar_item"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("projects");
+          }}
+        >
           Projects
         </a>
-        <a href="#contact" className="navbar_item">
+        <a
+          href="#contact"
+          className="navbar_item"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("contact");
+          }}
+        >
           Contact
         </a>
       </div>
