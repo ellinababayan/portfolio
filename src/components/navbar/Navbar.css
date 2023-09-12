@@ -1,0 +1,25 @@
+.navbar_container {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  border-radius: 1rem;
+  top: 0;
+  width: 100%;
+padding-bottom: 1.5rem;
+border-bottom: 0.1rem solid rgba(57, 47, 36, 0.3);
+}
+.navbar_logo {
+  width: 3rem;
+padding-left: 1rem;
+padding-top: 0.5rem;
+}
+.navbar_navigation {
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 4rem;
+}
+.navbar_item {
+  text-decoration: none;
+  color: rgb(57, 47, 36);
+  padding-left: 3rem;
+}
