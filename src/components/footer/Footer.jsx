@@ -48,7 +48,7 @@ const Footer = () => {
         >
           Contact Now
         </a>
-        <p class="copyright"> &#169;Copyright 2023 by Ellina Babaian</p>
+        <p className="copyright"> &#169;Copyright 2023 by Ellina Babaian</p>
       </div>
     </div>
   );

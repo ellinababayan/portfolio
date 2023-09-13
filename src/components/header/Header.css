@@ -70,3 +70,44 @@
   border-radius: 1rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+/* @media only screen and (max-width: 1200px){
+  .tech_stack{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-header__photo_container {
+    margin-left: 1rem;
+  }
+  .header-section__photo {
+    width: 15rem;
+  }
+} */
+@media only screen and (max-width: 1200px) {
+  .header__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+  .section-header__photo_container {
+    margin-left: 0;
+  }
+  .header-section__photo {
+    width: 20rem;
+  }
+  .section-header__text {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .tech_stack__container {
+    margin-top: 20rem;
+  }
+  .tech_stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .stack_logo {
+    margin: 0.5rem;
+    height: 5rem;
+  }
+}

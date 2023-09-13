@@ -26,3 +26,16 @@
   font-weight: 800;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 1200px) {
+  .section-about {
+    text-align: center;
+    height: auto;
+  }
+  .about_features {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .resume_container {
+    margin-top: 2rem;
+  }
+}

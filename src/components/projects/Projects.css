@@ -35,12 +35,12 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .project_img {
-    height: 13rem;
-    border-radius: 1rem;
+  height: 13rem;
+  border-radius: 1rem;
 }
-.project_img:hover{
-    height: 14rem;
-    transition: 0.5s;
+.project_img:hover {
+  height: 14rem;
+  transition: 0.5s;
 }
 .project_header {
   color: rgb(57, 47, 36);
@@ -49,10 +49,10 @@
   font-size: 1.5rem;
 }
 .project_description {
-    color: rgba(57, 47, 36, 0.7);
-    font-size: 1rem;
-    letter-spacing: 0.05rem;
-    padding: 1rem;
+  color: rgba(57, 47, 36, 0.7);
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  padding: 1rem;
 }
 .project_link {
   text-decoration: none;
@@ -65,4 +65,30 @@
 .project_link:hover {
   color: rgba(57, 47, 36, 0.7);
   transition: 0.5s;
+}
+@media only screen and (max-width: 1200px) {
+
+  .project_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
+  }
+  .project_1 {
+    width: 35rem;
+    margin-bottom: 2rem;
+  }
+  .project_2 {
+    width: 35rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .project_3 {
+    width: 35rem;
+    margin-left: 2rem;
+  }
+  .project_img {
+    height: 17rem;
+  }
 }

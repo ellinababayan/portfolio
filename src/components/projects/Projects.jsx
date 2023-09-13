@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="project_container">
         <div className="project_1">
           <a href="https://natours-beta-six.vercel.app/" target="_blank">
-            <video class="project_img" autoplay="" loop muted>
+            <video className="project_img" autoPlay="" loop muted>
               <source
                 src="img/Natours _ Exciting tours for adventurous people - Google Chrome 2023-09-11 23-28-31.mp4"
                 type="video/mp4"
@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
         <div className="project_2">
           <a href="https://trillo2.vercel.app/" target="_blank">
-            <video class="project_img" autoplay="" loop muted>
+            <video className="project_img" autoPlay="" loop muted>
               <source
                 src="img/Trillo _ Your holiday in one click - Google Chrome 2023-09-11 23-41-29.mp4"
                 type="video/mp4"
@@ -66,7 +66,7 @@ const Projects = () => {
         </div>
         <div className="project_3">
           <a href="https://nexter-topaz.vercel.app/" target="_blank">
-            <video class="project_img" autoplay="" loop muted>
+            <video className="project_img" autoPlay="" loop muted>
               <source
                 src="img/Nexter — your home, your freedom - Google Chrome 2023-09-11 23-46-57.mp4"
                 type="video/mp4"
