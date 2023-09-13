@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project_2">
-          <a href="https://trillo2.vercel.app/" target="_blank">
+          <a href="https://trillo-pied-nine.vercel.app/" target="_blank">
             <video className="project_img" autoPlay="" loop muted>
               <source
                 src="img/Trillo _ Your holiday in one click - Google Chrome 2023-09-11 23-41-29.mp4"
@@ -56,7 +56,7 @@ const Projects = () => {
               experience for users on the go.
             </p>
             <a
-              href="https://trillo2.vercel.app/"
+              href="https://trillo-pied-nine.vercel.app/"
               target="_blank"
               className="project_link"
             >
