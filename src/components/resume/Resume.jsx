@@ -28,7 +28,7 @@ const Resume = () => {
       <div className="resume_container">
         <a
           type="application/pdf"
-          href="https://docs.google.com/document/d/1EvGotpraBWEuchxTqccNWyG8tdx7u_yerPjlo0i_3YM/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1AG_7WUKVzQzQS8EBMpcJJ2lFi25NkgBSWm1lX_yp1jk/edit?usp=sharing"
           target="_blank"
           download
           className="resume"
