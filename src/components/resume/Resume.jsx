@@ -28,9 +28,9 @@ const Resume = () => {
       <div className="resume_container">
         <a
           type="application/pdf"
-          href="https://docs.google.com/document/d/1AG_7WUKVzQzQS8EBMpcJJ2lFi25NkgBSWm1lX_yp1jk/edit?usp=sharing"
+          href="Ellina_Babaian_cv.pdf"
           target="_blank"
-          download
+          // download
           className="resume"
         >
           My Resume
