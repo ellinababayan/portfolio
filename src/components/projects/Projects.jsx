@@ -23,7 +23,7 @@ const Projects = () => {
             <p className="project_description">
               Natours is a captivating and nature-inspired travel website
               showcased in this repository. It's designed to help adventure
-              seekers discover exciting tour packages set in stunning natural
+              seekers discover tour packages set in stunning 
               landscapes. <br></br> With a fresh and immersive user interface,
               Natours provides an enticing platform for travelers to explore and
               book their next thrilling journey into the wild.
@@ -33,7 +33,11 @@ const Projects = () => {
               target="_blank"
               className="project_link"
             >
-              Visit web site <External />
+              Visit web site
+            </a>
+
+            <a href="https://github.com/ellinababayan/Natours2" target="_blank" className="project_link">
+              Source code
             </a>
           </div>
         </div>
@@ -63,7 +67,11 @@ const Projects = () => {
               target="_blank"
               className="project_link"
             >
-              Visit web site <External />
+              Visit web site
+            </a>
+
+            <a href="https://github.com/ellinababayan/Trillo2" target="_blank" className="project_link">
+              Source code
             </a>
           </div>
         </div>
@@ -83,7 +91,7 @@ const Projects = () => {
             <p className="project_description">
               Nexter is a modern real estate website built using the latest web
               technologies. It offers an intuitive and visually appealing
-              platform for browsing and exploring real estate listings.<br></br>
+              platform for browsing and exploring real estate listings.<br></br><br></br>
               With a sleek and user-friendly design, Nexter provides a seamless
               experience for both buyers and sellers in the real estate market.
             </p>
@@ -92,7 +100,10 @@ const Projects = () => {
               target="_blank"
               className="project_link"
             >
-              Visit web site <External />
+              Visit web site
+            </a>
+            <a href="https://github.com/ellinababayan/nexter2" target="_blank" className="project_link">
+              Source code
             </a>
           </div>
         </div>
