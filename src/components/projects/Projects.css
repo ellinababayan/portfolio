@@ -76,21 +76,28 @@
     justify-content: center;
     text-align: center;
   }
-  .project_1 {
+  .project__item{
     width: 35rem;
+  }
+  .project_1 {
     margin-bottom: 2rem;
   }
   .project_2 {
-    width: 35rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
   .project_3 {
-    width: 35rem;
     margin-left: 2rem;
   }
   .project_img {
     height: 17rem;
   }
 }
-
+@media only screen and (max-width: 500px) {
+  .project_img{
+    height: 10rem;
+  }
+  .project__item{
+    width: 20rem;
+  }
+}
