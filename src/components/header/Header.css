@@ -98,7 +98,7 @@
   }
 
   .tech_stack__container {
-    margin-top: 10rem;
+    margin-top: 20rem;
   }
   .tech_stack {
     display: grid;
@@ -109,9 +109,14 @@
     height: 5rem;
   }
 }
+@media only screen and (max-width: 900px) {
+  .tech_stack__container {
+    margin-top: 10rem;
+  }
+}
 @media only screen and (max-width: 500px) {
   .tech_stack__container {
-    margin-top: 20rem;
+    margin-top: 10rem;
   }
   .header__container {
     padding-top: 7rem;
