@@ -114,6 +114,11 @@
     margin-top: 10rem;
   }
 }
+@media only screen and (max-height: 900px) {
+  .tech_stack__container {
+    margin-top: 20rem;
+  }
+}
 @media only screen and (max-width: 500px) {
   .tech_stack__container {
     margin-top: 10rem;
@@ -127,13 +132,13 @@
   .stack_description {
     font-size: calc(var(--index) * 0.8);
   }
-  .section-header__h1{
+  .section-header__h1 {
     font-size: 3rem;
   }
-  .section-header__h3{
+  .section-header__h3 {
     font-size: 1.3rem;
   }
-  .section-header__h4{
+  .section-header__h4 {
     font-size: 1rem;
   }
 }
